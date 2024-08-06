@@ -15,3 +15,7 @@ function calculate() {
 function clearDisplay() {
     display.value = ''; // Clear the display
 }
+
+function backspace() {
+    display.value = display.value.slice(0, -1);
+}
